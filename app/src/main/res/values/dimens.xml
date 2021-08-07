@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeTxtResult">40sp</dimen>
+    <dimen name="marginBtn">10dp</dimen>
+    <dimen name="sizeBtnTxt">20sp</dimen>
+    <dimen name="marginTxtResult">30dp</dimen>
+</resources>
