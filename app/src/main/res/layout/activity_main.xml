@@ -37,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/marginBtn"
+            android:padding="@dimen/padding"
             android:layout_weight="1">
 
             <Button
