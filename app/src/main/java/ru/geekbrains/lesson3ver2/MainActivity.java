@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    Calculator calculator;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,12 +54,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnPoint = findViewById(R.id.btnPoint);
         btnPoint.setOnClickListener(this);
 
-        TextView result = findViewById(R.id.resultView);
-        result.setOnClickListener(this);
+        TextView txtVwResult = findViewById(R.id.txtVwResult);
+        txtVwResult.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.btn1:
+                calculator.btnOnePressed();
+                break;
+        }
+
 
     }
 }

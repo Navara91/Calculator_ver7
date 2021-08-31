@@ -19,17 +19,30 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="3">
+            android:layout_weight="2"
+            android:orientation="vertical">
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtVwResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
                 android:layout_marginStart="@dimen/marginTxtResult"
                 android:layout_marginEnd="@dimen/marginTxtResult"
+                android:layout_weight="1"
                 android:gravity="end"
                 android:textSize="@dimen/sizeTxtResult"
                 tools:text="0" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginTxtResult"
+                android:layout_marginEnd="@dimen/marginTxtResult"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:textSize="@dimen/sizeEditTxt"
+                tools:text="@string/_0" />
 
         </LinearLayout>
 
